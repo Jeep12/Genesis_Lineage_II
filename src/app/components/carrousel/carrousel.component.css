@@ -1,0 +1,13 @@
+div {
+    padding: 0px;
+    margin: 0;
+}
+img {
+    width: 100%;
+}
+@media (max-width: 400px) {
+    .carousel-caption {
+        display: none;
+    }
+  }
+  

@@ -9,7 +9,6 @@
   left: 0;
   height: 100%;
   width: 260px;
-  background: #d31d1d;
   background-image: url("../assets/images/bg2.svg");
   z-index: 100;
   transition: all 0.2s ease;
@@ -198,6 +197,7 @@
 .home-section .home-content .text {
   color: #FCAF3C;
   font-size: 35px;
+
 }
 .home-section .home-content .bx-menu {
   margin: 0 15px;

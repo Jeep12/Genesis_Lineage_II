@@ -5,18 +5,22 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
 import { LoadScriptsService } from './services/load-scripts.service';
-import { SliderCenterComponent } from './components/slider-center/slider-center.component';
+import { CarrouselComponent } from './components/carrousel/carrousel.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     HeaderComponent,
-    SliderCenterComponent
+    CarrouselComponent,
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule,
+    
   ],
   providers: [
     LoadScriptsService,
