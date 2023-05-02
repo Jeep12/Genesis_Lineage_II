@@ -5,12 +5,14 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
 import { LoadScriptsService } from './services/load-scripts.service';
+import { SliderCenterComponent } from './components/slider-center/slider-center.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    HeaderComponent
+    HeaderComponent,
+    SliderCenterComponent
   ],
   imports: [
     BrowserModule,
