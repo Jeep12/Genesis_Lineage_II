@@ -192,6 +192,9 @@
   height: 60px;
   display: flex;
   align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 .home-section .home-content .bx-menu,
 .home-section .home-content .text {
@@ -204,11 +207,42 @@
   cursor: pointer;
 }
 .home-section .home-content .text {
-  font-size: 26px;
+  font-size: 20px;
   font-weight: 600;
+
+}
+.text i {
+  font-size: 26px;
+  margin-left: 8px;
+}
+.install {
+  margin-left: 50px;
+}
+.install button {
+  background-color: #FCAF3C;
+  border: none;
+  width: 230px;
+  border-radius: 2.5px;
+  color: white;
+  height: 30px;
+  background-image: url("../assets/images/bg2.svg");
+  background-position:initial ;
+
+
+
+}
+.install button i {
+  font-size: 15px;
+  color: inherit;
 }
 /*
 */
 .container {
   padding: 10px;
+}
+
+@media (max-width: 400px) {
+  .home-section .home-content {
+    height: 120px;
+  }
 }

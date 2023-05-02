@@ -1,13 +1,24 @@
 div {
-    padding: 0px;
-    margin: 0;
+  padding: 0px;
+  margin: 0;
+  width: 100%;
 }
+
 img {
-    width: 100%;
+  width: 100%;
 }
+
 @media (max-width: 400px) {
-    .carousel-caption {
-        display: none;
-    }
+  .carousel-caption {
+    display: none;
   }
-  
+}
+
+@media only screen and (min-width: 1500px) and (max-width: 1920px) {
+
+  /* Aquí puedes colocar los estilos CSS que deseas aplicar cuando la pantalla está entre 1366 y 1920 píxeles de ancho */
+  div {
+    height: 800px;
+  }
+}
+
