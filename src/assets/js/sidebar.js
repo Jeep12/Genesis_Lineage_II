@@ -13,3 +13,10 @@ const sidebarBtn = document.querySelector(".bx-menu");
 sidebarBtn.addEventListener("click", () => {
   sidebar.classList.toggle("close");
 });
+toggleSideBar();
+function toggleSideBar (){
+  if (screen.width <= 400){
+    sidebar.classList.toggle("close");
+  } 
+
+}
