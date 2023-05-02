@@ -12,7 +12,9 @@
   background: #d31d1d;
   background-image: url("../assets/images/bg2.svg");
   z-index: 100;
-  transition: all 0.5s ease;
+  transition: all 0.2s ease;
+  box-shadow: 5px 0px 10px 0px rgba(0,0,0,0.75);
+
 }
 .sidebar.close {
   width: 78px;
