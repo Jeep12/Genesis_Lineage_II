@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* FUENTES */
+@font-face {
+  font-family: "Gamer1";
+  src: url("assets/fonts/pdark.ttf");
+}
+
+@font-face {
+  font-family: "Gamer2";
+  src: url("assets/fonts/MachineGunk-nyqg.ttf");
+}
+
+@font-face {
+  font-family: "Gamer6";
+  src: url("assets/fonts/bandera.ttf");
+}
+
+@font-face {
+  font-family: "Gamer3";
+  src: url("assets/fonts/GALSB.ttf");
+}
+
+@font-face {
+  font-family: "Gamer4";
+  src: url("assets/fonts/Kwajong-BVRG.ttf");
+}
+
+@font-face {
+  font-family: "Gamer5";
+  src: url("assets/fonts/ReactiveAnchor-L3L0n.ttf");
+}
